@@ -1,0 +1,46 @@
+/* App.css */
+
+.app {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  padding: 50px;
+}
+
+.title {
+  color: #FF007A;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: #B57CFF;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.start-btn {
+  background-color: #FF007A;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 20px rgba(255, 0, 122, 0.5);
+}
+
+.start-btn:hover {
+  background-color: #B57CFF;
+  box-shadow: 0 0 30px rgba(181, 124, 255, 0.7);
+  transform: scale(1.05);
+}
